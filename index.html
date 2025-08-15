@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Nosso "Sim" ❤️</title>
+    
+    <!-- Links para fontes externas e para o seu arquivo de estilo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@400&display=swap" rel="stylesheet">
+    
+    <!-- Caminho atualizado para o seu arquivo CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- Caminhos atualizados para os arquivos de mídia -->
+    <audio id="background-music" loop><source src="assets/audio/musica.mp3" type="audio/mpeg"></audio>
+    <button id="music-button">🎵</button>
+    <video autoplay loop muted id="video-background"><source src="assets/video/praia.mp4" type="video/mp4"></video>
+
+    <!-- Estrutura do Conteúdo da Página -->
+    <div class="content-wrapper">
+        <div id="container">
+            <h1>Contando cada segundo desde que você disse "Sim" ❤️</h1>
+            
+            <div class="slideshow-container">
+                <!-- Caminho atualizado para a primeira imagem -->
+                <img id="gallery-image" class="gallery-image" src="assets/imagens/Casal.jpg" alt="Álbum de fotos do casal">
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+    
+            <p class="subtitle">O começo do nosso 'para sempre'.</p>
+            <div id="timer">Calculando os nossos momentos...</div>
+        </div>
+    </div>
+
+    <!-- Caminho atualizado para o seu arquivo JavaScript no final do body -->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
