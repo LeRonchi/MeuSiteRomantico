@@ -1,8 +1,8 @@
 // --- SCRIPT DO ÁLBUM COM EFEITO DE PULSO ---
 // Caminhos para as imagens atualizados para a pasta 'assets/images/'
-const photoFilenames = ['assets/imagens/Casal.jpg'];
+const photoFilenames = ['assets/imagens/casal.jpg'];
 for (let i = 1; i <= 14; i++) {
-    photoFilenames.push(`assets/imagens/Casal${i}.jpg`);
+    photoFilenames.push(`assets/imagens/casal${i}.jpg`);
 }
 
 let slideIndex = 0;
